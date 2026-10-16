@@ -5,12 +5,6 @@ Samet Youssef  — LSI 3 — Développement d'applications réparties
 Structure : `src/serverPackage/Server.java` et `src/clientPackage/Client.java`.
 Chaque activité correspond à un commit/tag Git (`activite-1-1`, `activite-1-2`, `activite-1-3`).
 
-## Compilation / exécution
-```
-javac -d out src/serverPackage/Server.java src/clientPackage/Client.java
-java -cp out serverPackage.Server [IP] [port]     # défaut : IP réelle de la machine, port 1234
-java -cp out clientPackage.Client [IP_serveur] [port]   # défaut : localhost, 1234
-```
 
 ## Activité 1-1 — Première connexion
 ### Étape 1 : `git --version`
